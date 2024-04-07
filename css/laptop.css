@@ -1,0 +1,49 @@
+/* Laptop Version */
+
+@media (max-width: 992px) {
+  .header {
+    padding: 20px 80px;
+  }
+
+  .header__logoBox img {
+    width: 80px;
+  }
+
+  .header__btn {
+    display: none;
+  }
+
+  .header__bars {
+    display: block;
+  }
+
+  .home {
+    padding: 125px 80px 50px;
+  }
+
+  .home__textBox h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .home__textBox p {
+    font-size: 21px;
+    line-height: 30px;
+    margin: 20px 0 40px;
+  }
+
+  .home__textBox a {
+    padding: 10px 40px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .home__bubbleBox {
+    left: 50px;
+    bottom: 20px;
+  }
+
+  .home__bubbleBox img {
+    width: 80px;
+  }
+}

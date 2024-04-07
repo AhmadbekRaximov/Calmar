@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Callmar+</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logoBox">
+        <a href="#">
+          <img src="image/logo.png" alt="Logo" />
+        </a>
+      </div>
+
+      <div class="header__btn">
+        <a href="#">Вход</a>
+        <a href="#">Регистрация</a>
+      </div>
+
+      <div class="header__bars">
+        <i class="fa-solid fa-bars" onclick="addActive();"></i>
+      </div>
+
+      <div class="header__mobile">
+        <div>
+          <a href="#">Вход</a>
+          <a href="#">Регистрация</a>
+        </div>
+
+        <i class="fa-solid fa-xmark" onclick="addActive();"></i>
+      </div>
+    </header>
+
+    <section class="home">
+      <div class="home__imgBox">
+        <img src="image/octopus.png" alt="Octopus" />
+      </div>
+
+      <div class="home__textBox">
+        <h1>Обратный звонок на сайт</h1>
+        <p>
+          Получайте в 3 раза больше звонков сразу после установки виджета на Ваш
+          сайт Сервис окупает свой годовой тариф в первую же неделю
+        </p>
+        <a href="#">ПОДКЛЮЧИТЬ</a>
+      </div>
+
+      <div class="home__bubbleBox">
+        <img src="image/home__bubble.png" alt="Bubble" />
+      </div>
+    </section>
+
+    <section class="cards">
+      <img src="image/scuba-diver1.png" alt="Scuba1" class="cards__scuba1" />
+      <img src="image/scuba-diver2.png" alt="Scuba2" class="cards__scuba2" />
+      <img src="image/cards__bubble.png" alt="Bubble" class="cards__bubble" />
+
+      <h3 class="cards__title">Как работает виджет обратного звонка</h3>
+
+      <div class="cards__container">
+        <div class="cards__item">
+          <h5>Устанавливаете код на сайт</h5>
+          <p>
+            Вы устанавливаете на свой сайт специальный html-код. Это займет 3
+            минуты или мы поможем вам
+          </p>
+        </div>
+
+        <div class="cards__item">
+          <h5>На Вашем сайте появится кнопка и всплывающее окно</h5>
+          <p>
+            Посетители заходят на Ваш сайт, видят кнопку или всплывающее окно и
+            вводят свой телефон
+          </p>
+        </div>
+
+        <div class="cards__item">
+          <h5>Сервис автоматически звонит менеджеру и клиенту</h5>
+          <p>
+            Как только менеджер взял трубку, сервис автоматически связывается с
+            клиентом и соединяет его с менеджером. В среднем за 18,5 сек
+          </p>
+        </div>
+
+        <div class="cards__item">
+          <h5>Клиент теперь Ваш !</h5>
+          <p>
+            Уже через 28 секунд Ваш сотрудник общается с клиентом и делает
+            продажу!
+          </p>
+        </div>
+      </div>
+
+      <h4 class="cards__video">Посмотрите видео как работает виджет</h4>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
